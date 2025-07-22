@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenjar's Solutions Limited</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amazon+Ember:wght@400;700&display=swap');
+    body {
+      font-family: 'Amazon Ember', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  
+  <!-- Navigation -->
+  <a href="#top" id="top"></a>
+  <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+<a href="#top" class="flex items-center space-x-4">
+  <img src="img/logo.png" alt="Kenjar's Solutions Ltd logo" class="h-16 w-auto" />
+  <h1 class="text-3xl font-bold" style="color: #0759A5;">
+    <span style="color: #C73631;">Kenjar's</span> <span style="color: #000000;">Solutions</span> <span style="color: #0759A5;">Ltd</span>
+  </h1>
+</a>
+      </div>
+      <ul class="flex gap-6 text-lg">
+        <li><a href="#about" class="hover:text-[#C73631]">About</a></li>
+        <li><a href="#services" class="hover:text-[#C73631]">Services</a></li>
+        <li><a href="#contact" class="hover:text-[#C73631]">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="relative text-white text-center h-[600px] bg-cover bg-center" style="background-image: url('img/pic1.jpeg');">
+  <div class="relative z-10 max-w-4xl mx-auto px-6 py-32">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6">Your Complete Solutions and More</h2>
+    <p class="text-lg md:text-xl mb-8">Kenjar's Electrical and Mechanical Solutions Ltd provides comprehensive electrical and HVAC services across Jamaica.</p>
+    <a href="#contact" class="inline-block bg-white text-[#0759A5] px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-gray-100 transition">
+      Get in Touch
+    </a>
+  </div>
+</section>
+
+  <!-- About Section -->
+<section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+  <div class="grid md:grid-cols-2 gap-10 items-stretch">
+    <!-- Text Section -->
+    <div>
+      <h3 class="text-4xl font-bold mb-2 text-[#0759A5] relative inline-block after:block after:w-auto after:h-[2px] after:bg-[#0759A5] after:mt-2 mx-auto">
+  About Us</h3>
+      <p class="text-lg leading-relaxed">
+        At Kenjar's Electrical and Mechanical Solutions Limited, we understand that the smooth operation of your facility depends on the synergy between electrical and mechanical systems. That’s why we offer a holistic approach to ensure your systems are efficient, reliable, and cost-effective. Our team of highly skilled professionals brings combined expertise in both fields, enabling seamless, integrated solutions. We utilise cutting-edge technology to enhance energy efficiency and sustainability, while maintaining strict adherence to the highest safety standards and all relevant codes and regulations. With a strong focus on timely execution, we complete projects on schedule and within budget, without compromising on quality. All of this is delivered at competitive prices, ensuring exceptional value for your investment.
+      </p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="w-full h-full">
+      <img src="img/about.png" alt="About Kenjar's" class="w-full h-full object-cover" />
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+<section id="services" class="py-20 bg-white px-6">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="text-4xl font-bold mb-12 text-center text-[#C73631]">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-10">
+      <!-- Service Card 1 -->
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="w-full h-56 overflow-hidden rounded mb-6">
+          <img src="img/elec.png" alt="Electrical Installations" class="w-full h-full object-cover" />
+        </div>
+        <h4 class="text-2xl font-semibold mb-2 text-[#0759A5]">Electrical Installations</h4>
+        <p>Safe and efficient wiring systems for residential, commercial, and industrial buildings.</p>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="w-full h-56 overflow-hidden rounded mb-6">
+          <img src="img/havc.png" alt="HVAC Systems" class="w-full h-full object-cover" />
+        </div>
+        <h4 class="text-2xl font-semibold mb-2 text-[#0759A5]">HVAC Systems</h4>
+        <p>Professional installation and maintenance of air conditioning and ventilation systems.</p>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <div class="w-full h-56 overflow-hidden rounded mb-6">
+          <img src="img/mech.png" alt="Mechanical Repairs" class="w-full h-full object-cover" />
+        </div>
+        <h4 class="text-2xl font-semibold mb-4 text-[#0759A5]">Mechanical Repairs</h4>
+        <p>Reliable mechanical servicing to maintain and extend equipment lifespan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <!-- Footer -->
+<footer id="contact" class="bg-black text-white py-6 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h4 class="text-3xl font-bold mb-4 text-white">Contact Us</h4>
+    <p class="text-lg">Reach out to discuss your next project or schedule a service.</p>
+    <div class="mt-6 space-y-4 text-lg">
+      <p>
+        <a href="mailto:Kenjarsolutions@outlook.com" class="flex items-center justify-center gap-2 text-[#C73631] hover:underline">
+          <i data-lucide="mail"></i> Kenjarsolutions@outlook.com
+        </a>
+      </p>
+      <p>
+        <a href="tel:+18769190597" class="flex items-center justify-center gap-2 text-[#C73631] hover:underline">
+          <i data-lucide="phone"></i> 1 (876) 919-0597
+        </a>
+      </p>
+      <p>
+        <a href="https://instagram.com/k_e_m_s_ltd" class="flex items-center justify-center gap-2 text-[#C73631] hover:underline" target="_blank">
+          <i data-lucide="instagram"></i> @k_e_m_s_ltd
+        </a>
+      </p>
+      <p>
+        <a href="https://tiktok.com/@k_e_m_s_ltd" class="flex items-center justify-center gap-2 text-[#C73631] hover:underline" target="_blank">
+          <i data-lucide="music-2"></i> @k_e_m_s_ltd
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center mt-10 border-t border-white/20 pt-4 text-sm text-gray-400">
+    &copy; 2025 Kenjar's Electrical and Mechanical Solutions Ltd. All rights reserved.
+  </div>
+</footer>
+
+<!-- Load Lucide icons -->
+<script>
+  lucide.createIcons();
+</script>
+</footer>
+
